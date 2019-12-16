@@ -1,0 +1,4 @@
+crear BBDD amb tres taules i omplir: fet
+Crear ramdisk: createramdisk.sh
+Muntar bbdd: moure amsa/ al ramdisk i fer un symlink des de /var/lib/mysql/amsa. Posar permisos 700 i owner mysql:mysql. Fer amsa-backup a /var/lib/mysql i posar mateix owner i permisos
+Fer init script perque en shutdown es copii el contingut del symlink a amsa-backup
